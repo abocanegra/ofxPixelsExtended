@@ -10,7 +10,7 @@ Adds functions (More to come)
 getTotalPixels() - returns total number of pixels, channel independent.
 
 isNewFrame(ofPixels lastFrame) | isNewFrame(ofPixelsExtended lastFrame):
-compares to sets of pixels to see if they are unique, returns true of they are.
+compares to sets of pixels two see if they are unique, returns true of they are.
 
 Future versions:
 
