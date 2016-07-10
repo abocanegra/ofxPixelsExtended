@@ -22,12 +22,14 @@ class ofxPixelsExtended : public ofPixels
 public:
     ofxPixelsExtended();
     ~ofxPixelsExtended();
-    bool isNewFrame(ofPixels last, int pxIter = 10);
-    bool isNewFrame(ofxPixelsExtended last, int pxIter = 10);
+    bool isNewFrame(ofPixels last, int pxIter = 50);
+    bool isNewFrame(ofxPixelsExtended last, int pxIter = 50);
+    bool isNewFrame(int pxIter = 50);
 
     uint getTotalPixels();
 
 protected:
+    ofPixels lastPx;
 
 private:
 };
