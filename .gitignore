@@ -4,6 +4,14 @@
 *.o
 *.obj
 
+apps\**\*.vcxproj*
+addons\**\*.vcxproj*
+examples\**\*.vcxproj*
+apps\**\*.sln
+examples\**\*.sln
+addons\**\*.sln
+
+
 # Precompiled Headers
 *.gch
 *.pch
@@ -27,3 +35,5 @@
 *.exe
 *.out
 *.app
+res\**\*
+.vs\**\*
